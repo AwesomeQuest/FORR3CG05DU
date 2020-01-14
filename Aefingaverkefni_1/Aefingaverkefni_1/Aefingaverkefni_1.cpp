@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <string>
+#include <locale>
+#include <bitset>
+#include <cmath>
 
 using namespace std;
 
@@ -121,9 +124,71 @@ void lab171() {
 }
 
 
+void lid2() {
+
+	setlocale(LC_ALL, "icelandic");
+
+
+	int input;
+	do
+	{
+		cout << "1 - Tvíundakerfið \n"
+			<< "2 - Áttundakerfið \n"
+			<< "3 - Sextándakerfið \n"
+			<< "0 - Hætta \n"
+			<< "------------------- \n"
+			<< "Veldu aðgerð:";
+
+		cin >> input;
+
+
+
+		switch (input)
+		{
+		case 1:
+			cout << "Input: ";
+			cin >> input;
+
+
+			if (input > pow(2, 32))
+			{
+				cout << "TOO BIG";
+			}
+			else
+			{
+				cout << bitset<32>(input);
+			}
+
+			break;
+
+		case 2:
+			cout << "Input: ";
+			cin >> input;
+
+			cout << oct << input << dec << endl;
+			break;
+
+		case 3:
+			cout << "Input: ";
+			cin >> input;
+			cout << hex << input << dec << endl;
+			break;
+
+		default:
+			cout << "WRONG \n";
+			break;
+		}
+	} while (input != 0);
+}
+
+
+
 int main()
 {
+
 	
+
+
 }
 
 
