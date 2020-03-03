@@ -1,5 +1,0 @@
-﻿  Aefingaverkefni_1.cpp
-C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Aefingaverkefni_1\Aefingaverkefni_1\Aefingaverkefni_1.cpp(29,26): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Aefingaverkefni_1\Aefingaverkefni_1\Aefingaverkefni_1.cpp(37,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Aefingaverkefni_1\Aefingaverkefni_1\Aefingaverkefni_1.cpp(38,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Aefingaverkefni_1.vcxproj -> C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Aefingaverkefni_1\x64\Debug\Aefingaverkefni_1.exe

@@ -1,0 +1,12 @@
+﻿  Afangi.cpp
+  Nemandi.cpp
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(15,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(64,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(87,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(105,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(130,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Skilaverkefni_1\Nemandi.cpp(145,23): warning C4018: '<': signed/unsigned mismatch
+  Skilaverkefni_1.cpp
+  Generating Code...
+  Skilaverkefni_1.vcxproj -> C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\Skilaverkefni_1\Debug\Skilaverkefni_1.exe

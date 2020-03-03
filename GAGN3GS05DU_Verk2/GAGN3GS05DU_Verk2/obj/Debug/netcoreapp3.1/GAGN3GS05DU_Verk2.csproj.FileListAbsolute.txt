@@ -1,0 +1,14 @@
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.exe
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.deps.json
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.runtimeconfig.json
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.runtimeconfig.dev.json
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.dll
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.pdb
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\obj\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.csprojAssemblyReference.cache
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\obj\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.AssemblyInfoInputs.cache
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\obj\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.AssemblyInfo.cs
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\obj\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.dll
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\obj\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.pdb
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\obj\Debug\netcoreapp3.1\GAGN3GS05DU_Verk2.csproj.CopyComplete
+C:\Users\Torfi\Documents\GitHub\FORR3CG05DU\GAGN3GS05DU_Verk2\GAGN3GS05DU_Verk2\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
