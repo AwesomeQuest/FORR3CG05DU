@@ -24,7 +24,7 @@ namespace GAGN3GS05DU_Verk2
     {
         static void Main(string[] args)
         {
-            /*
+            
             string orgpath = @"C:\csv.csv";
             string inputLine = "";
             List<List<string>> data = new List<List<string>>();
@@ -33,6 +33,14 @@ namespace GAGN3GS05DU_Verk2
 
             int count = 0;
 
+            string jsonPath = @".\jsonOut.json";
+            if (!File.Exists(jsonPath))
+            {
+                using (StreamWriter sw = File.CreateText(jsonPath))
+                {
+                }
+            }
+
             while ((inputLine = reader.ReadLine()) != null)
             {
                 if (inputLine.Length > 0)
@@ -40,23 +48,22 @@ namespace GAGN3GS05DU_Verk2
                     string[] inputArray = Regex.Split(inputLine, "\\,(?=([^\"]* \"[^\"]*\")*[^\"]*$)");
                     foreach (string item in inputArray)
                     {
-                        Console.Write(item + " ");
+                        if (!Regex.IsMatch(item, "\\,(?!=([^\"]* \"[^\"]*\")*[^\"]*$)"))
+                        {
+
+                            using (StreamWriter sw = File.AppendText(jsonPath))
+                            {
+                                sw.WriteLine(item);
+                            }
+                        }
                     }
-                    Console.WriteLine();
                     count++;
                 }
             }
-            */
+            
 
-            MongoClient dbClient = new MongoClient("mongodb://localhost:27017");
-            var database = dbClient.GetDatabase("Municipality Population");
-            var collection = database.GetCollection<BsonDocument>("Municipalities");
 
-            using (var reader = new StreamReader(@"C:\csv.csv"))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                var records = csv.GetRecords<Municipality>();
-            }
+            
 
 
             
