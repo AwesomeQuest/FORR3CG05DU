@@ -15,27 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Aefingarverkefni_5.cpp">
+    <ClCompile Include="gogn_aefingaverkefni_2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack.cpp">
+    <ClCompile Include="RadadurListi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Node.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StackNode.cpp">
+    <ClCompile Include="Gogn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stack.h">
+    <ClInclude Include="RadadurListi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Node.h">
+    <ClInclude Include="GognNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StackNode.h">
+    <ClInclude Include="Gogn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

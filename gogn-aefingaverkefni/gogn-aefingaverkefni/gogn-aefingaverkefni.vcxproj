@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{6FE5BAAB-3484-4D98-842D-165CEC9C9AE7}</ProjectGuid>
+    <ProjectGuid>{1C040DCB-7FDB-48FB-849F-A96B18168E54}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Aefingarverkefni5</RootNamespace>
+    <RootNamespace>gognaefingaverkefni</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,15 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Aefingarverkefni_5.cpp" />
-    <ClCompile Include="Node.cpp" />
-    <ClCompile Include="stack.cpp" />
-    <ClCompile Include="StackNode.cpp" />
+    <ClCompile Include="gogn-aefingaverkefni.cpp" />
+    <ClCompile Include="Gogn.cpp" />
+    <ClCompile Include="RadadurListi.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h" />
-    <ClInclude Include="stack.h" />
-    <ClInclude Include="StackNode.h" />
+    <ClInclude Include="Gogn.h" />
+    <ClInclude Include="GognNode.h" />
+    <ClInclude Include="RadadurListi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,25 +6,64 @@ using namespace std;
 
 stack::stack()
 {
-	this->ptr = 0;
+	head = nullptr;
 }
 void stack::push(int data)
 {
-	this->theStack[ptr++] = data;
+	if (!head)
+	{
+		head = new StackNode(data);
+	}
+	else
+	{
+		StackNode* newNode = new StackNode(data);
+		newNode->next = head;
+		head = newNode;
+	}
 }
 int stack::pop()
 {
-	return theStack[--ptr];
+	if (head)
+	{
+		StackNode* temp = head->next;
+		int output = head->data;
+		delete head;
+		head = temp;
+
+		return output;
+	}
+	else
+	{
+		cout << "Stack is empty" << endl;
+		return -1;
+	}
 }
 int stack::peek()
 {
-	return theStack[ptr - 1];
+	return (head ?  head->data : -1);
 }
 void  stack::print()
 {
-	for (size_t i = 0; i < ptr; i++)
+	StackNode* current = head;
+
+	while (current)
 	{
-		cout << theStack[i] << "-";
+		cout << current->data << " - ";
+
+		current = current->next;
 	}
-	cout << endl;
+}
+stack::~stack()
+{
+	StackNode* current = head;
+	StackNode* next;
+
+	while (current)
+	{
+		next = current->next;
+		delete current;
+		current = next;
+	}
+
+	cout << "Stack Purged" << endl;
 }

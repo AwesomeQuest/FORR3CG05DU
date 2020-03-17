@@ -1,17 +1,18 @@
 #pragma once
 
 #include <iostream>
+#include "StackNode.h"
 
 using namespace std;
 
 class stack
 {
 private:
-	int theStack[10];
-	unsigned int ptr;
+	StackNode* head;
 
 public:
 	stack();
+	~stack();
 	void push(int data);
 	int pop();
 	int peek();
